@@ -14,6 +14,7 @@ public class LongestZigZagPathInABinaryTree {
      *     }
      * }
      */
+    
     int max_depth = 0;
     Map<Map<TreeNode, Integer>, Integer> depthHash = new HashMap<>();
 
